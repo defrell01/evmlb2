@@ -10,9 +10,9 @@ const int SIZE = 10;
 int sse_add(unsigned int* A, unsigned int* B) {
 
     for (int i = 0; i < SIZE; i+=32) {
-        __m256i c_line = _mm256_setzero_si256();
-        _m256i a_line = _mm256_load_si256(&A[i]);
-        _m256i b_line = _mm256_load_si256(&B[i]);
+//        __m256i c_line = _mm256_setzero_si256();
+//        _m256i a_line = _mm256_load_si256(&A[i]);
+//        _m256i b_line = _mm256_load_si256(&B[i]);
 
     }
     return 0;
